@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MMDrawerController+Storyboard"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Storyboard category extension for MMDrawerController"
   s.homepage     = "https://github.com/TomSwift/MMDrawerController-Storyboard"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
                    DESC
 
   s.source_files  = 'MMDrawerController+Storyboard.{h,m}'
-  s.dependency 'MMDrawerController', 'head'
+  s.dependency 'MMDrawerController', ':head'
 
 end
